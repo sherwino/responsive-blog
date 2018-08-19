@@ -1,0 +1,42 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+article {
+width: 100%;
+}
+
+h1 {
+
+}
+
+.hundred {
+position: relative;
+max-width: 100%;
+}
+
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-footer > a {
+  width: 50%;
+}
