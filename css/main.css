@@ -11,6 +11,16 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
+.flex-header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.flex-header > h1 {
+  /* line-height: 100%; */
+  margin: auto 0 auto 1em;
+}
 
 body {
   width: 100%;
@@ -21,6 +31,7 @@ body {
 
 article {
 width: 100%;
+border-bottom: 2px dashed darkblue;
 }
 
 h1 {
@@ -34,9 +45,17 @@ max-width: 100%;
 
 .flex-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .flex-footer > a {
-  width: 50%;
+  min-width: 208px;
+  text-shadow: 3px #ccc;
+  margin: 0.5em;
+}
+
+.logo {
+  width: 10vw;
 }
